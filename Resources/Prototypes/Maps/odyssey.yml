@@ -1,20 +1,21 @@
 - type: gameMap
-  id: oddyssey
-  mapName: 'Oddyssey Station'
-  mapPath: /Maps/oddyssey.yml
-  minPlayers: 5
-  maxPlayers: 76
+  id: odyssey
+  mapName: 'odyssey'
+  mapPath: /Maps/odyssey.yml
+  minPlayers: 0
+  maxPlayers: 30
+  fallback: true
   stations:
-    Bagel:
+    odyssey:
       stationProto: StandardNanotrasenStation
       components:
         - type: StationNameSetup
-          mapNameTemplate: '{0} Oddyssey Station {1}'
+          mapNameTemplate: '{0} odyssey {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
         - type: StationEmergencyShuttle
-          emergencyShuttlePath: /Maps/Shuttles/emergency_lox.yml
+          emergencyShuttlePath: /Maps/Shuttles/corvax_emergency.yml # Corvax-EmergencyShuttle
         - type: StationJobs
           availableJobs:
             #service
@@ -27,7 +28,6 @@
             Chaplain: [ 1, 1 ]
             Librarian: [ 1, 1 ]
             ServiceWorker: [ 2, 2 ]
-            Chaplain: [ 1, 1 ]
             #engineering
             ChiefEngineer: [ 1, 1 ]
             AtmosphericTechnician: [ 3, 3 ]
@@ -37,27 +37,26 @@
             ChiefMedicalOfficer: [ 1, 1 ]
             Chemist: [ 1, 1 ]
             MedicalDoctor: [ 2, 2 ]
+            MedicalIntern: [ 2, 2 ]
             Paramedic: [ 1, 1 ]
-            MedicalIntern: [ 1, 1 ]
             #science
             ResearchDirector: [ 1, 1 ]
-            Scientist: [ 3, 3 ]
-            ResearchAssistant: [ 1, 1 ]
-            Borg: [ 2, 2 ]
+            Scientist: [ 2, 2 ]
+            ResearchAssistant: [ 2, 2 ]
+            Borg: [ 1, 1 ]
             #security
             HeadOfSecurity: [ 1, 1 ]
             Warden: [ 1, 1 ]
-            SecurityOfficer: [ 1, 1 ]
             Detective: [ 1, 1 ]
+            SecurityOfficer: [ 1, 1 ]
             SecurityCadet: [ 1, 1 ]
-            #Lawyer: [ 2, 2 ] # Corvax-IAA
             #supply
             Quartermaster: [ 1, 1 ]
             SalvageSpecialist: [ 3, 3 ]
             CargoTechnician: [ 3, 3 ]
-            #civilian
+            #civillian
             Passenger: [ -1, -1 ]
             Clown: [ 1, 1 ]
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
-            Reporter: [ 1, 1 ]
+
