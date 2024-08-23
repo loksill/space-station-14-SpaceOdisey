@@ -1,7 +1,7 @@
 - type: gameMap
   id: odyssey
   mapName: 'Odyssey Station'
-  mapPath: /Maps/odyssey.yml
+  mapPath: /Maps/_Odyssey/odyssey.yml
   minPlayers: 0
   maxPlayers: 30
   fallback: true

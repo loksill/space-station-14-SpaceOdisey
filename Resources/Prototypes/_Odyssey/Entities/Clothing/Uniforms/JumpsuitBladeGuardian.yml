@@ -5,6 +5,6 @@
   description: Пахнет силой
   components:
   - type: Sprite
-    sprite: Clothing\Uniforms\Jumpsuit\BladeGuardianUniform.rsi
+    sprite: _Odyssey/Clothing/Uniforms/Jumpsuit/BladeGuardianUniform.rsi
   - type: Clothing
-    sprite: Clothing\Uniforms\Jumpsuit\BladeGuardianUniform.rsi
+    sprite: _Odyssey/Clothing/Uniforms/Jumpsuit/BladeGuardianUniform.rsi
