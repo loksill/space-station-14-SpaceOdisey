@@ -1,4 +1,4 @@
-- type: entity
+- type: entity #идея взята со скибиди стейшона (super govno offical studio (лучший сервер (и в сс14 и в сс13)))
   name: унитаз
   suffix: скибиди
   parent: MobAdultSlimesYellow
@@ -28,7 +28,7 @@
         0: Alive
         50: Dead
 
-- type: entity
+- type: entity #идея взята со скибиди стейшона (super govno offical studio (лучший сервер (и в сс14 и в сс13)))
   name: унитаз
   suffix: скибиди
   parent: MobAdultSlimesYellow
@@ -58,7 +58,7 @@
         0: Alive
         150: Dead
 
-- type: entity
+- type: entity #идея взята со скибиди стейшона (super govno offical studio (лучший сервер (и в сс14 и в сс13)))
   name: унитаз-гослинг
   suffix: скибиди, гослинг
   parent: MobAdultSlimesYellow
